@@ -17,10 +17,13 @@ const Navs = () => {
                 <h6 className='pt-1 text-white'>চলমান শিক্ষাবর্ষঃ ২০২৩</h6>
                 <h6 className='pt-1 text-white'>শুক্রবার, ২০ জানুয়ারী ,২০২৩</h6>
             </Container>
-            <Container className='d-lg-flex p-3 mx-auto'>
-                <Image className='h-auto w-auto ' src={logos} alt="School Image" />
+            <Container className='d-lg-flex p-3 mx-auto sm-mx-auto'>
+                {/* <Image className='h-[150px] w-auto ' src={logos} alt="School Image" /> */}
+                <div className='d-flex align-items-center justify-content-center'>
+                    <img src={logos} height="100" width="100" alt="" />
+                </div>
                 <div className='d-flex align-items-center'>
-                    <div className='mt-5 lg-mt-0 lg-ms-3'>
+                    <div className='lg-mt-0 ps-3'>
                         <h3 className='fw-bold'>বিদ্যালয় দ্বি-মূখী উচ্চ বিদ্যালয়, বিদ্যালয়, বিদ্যালয়</h3>
                         <h5>স্থাপিতঃ ১৯৫৪; বিদ্যালয় কোডঃ ১২৬৬; ইআইআইএনঃ ১৬৯৫৪৬৭৯৮</h5>
                     </div>
