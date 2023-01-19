@@ -36,19 +36,19 @@ const Navs = () => {
                             <Nav.Link><Link className="text-white navbutton" to="/">হোম</Link></Nav.Link>
                             <NavDropdown title="আমাদের সম্পর্কে" id="basic-nav-dropdown">
                                 <NavDropdown.Item > <Link className="text-white navbutton" to="/about">প্রতিষ্ঠানের ইতিহাস</Link></NavDropdown.Item>
-                                <NavDropdown.Item ><Link className="text-white navbutton" to="/about">শিক্ষকবৃন্দ</Link></NavDropdown.Item>
-                                <NavDropdown.Item ><Link className="text-white navbutton" to="/about">প্রাক্তন শিক্ষকবৃন্দ</Link></NavDropdown.Item>
-                                <NavDropdown.Item ><Link className="text-white navbutton" to="/about">কর্মচারীবৃন্দ </Link></NavDropdown.Item>
-                                <NavDropdown.Item ><Link className="text-white navbutton" to="/about">প্রাক্তন কর্মচারীবৃন্দ </Link></NavDropdown.Item>
+                                <NavDropdown.Item ><Link className="text-white navbutton" to="/teachers">শিক্ষকবৃন্দ</Link></NavDropdown.Item>
+                                <NavDropdown.Item ><Link className="text-white navbutton" to="/exTeachers">প্রাক্তন শিক্ষকবৃন্দ</Link></NavDropdown.Item>
+                                <NavDropdown.Item ><Link className="text-white navbutton" to="/employee">কর্মচারীবৃন্দ </Link></NavDropdown.Item>
+                                <NavDropdown.Item ><Link className="text-white navbutton" to="/exEmployee">প্রাক্তন কর্মচারীবৃন্দ </Link></NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link ><Link className="text-white navbutton" to="/about">নোটিশ</Link></Nav.Link>
+                            <Nav.Link ><Link className="text-white navbutton" to="/notice">নোটিশ</Link></Nav.Link>
                             <NavDropdown title="উপস্থিতি রিপোর্ট" id="basic-nav-dropdown">
                                 <NavDropdown.Item ><Link className="text-white navbutton" to="/about">দৈনিক</Link></NavDropdown.Item>
                                 <NavDropdown.Item ><Link className="text-white navbutton" to="/about">মাসিক</Link></NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link ><Link className="text-white navbutton" to="/about">রেজাল্ট</Link></Nav.Link>
+                            <Nav.Link ><Link className="text-white navbutton" to="/result">রেজাল্ট</Link></Nav.Link>
                             <Nav.Link ><Link className="text-white navbutton" to="/about">অনলাইন ভর্তি</Link></Nav.Link>
-                            <Nav.Link ><Link className="text-white navbutton" to="/about">যোগাযোগ</Link></Nav.Link>
+                            <Nav.Link ><Link className="text-white navbutton" to="/contact">যোগাযোগ</Link></Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
