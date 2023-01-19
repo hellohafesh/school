@@ -1,0 +1,7 @@
+.impLink {
+    text-decoration: none;
+}
+
+.impLink:hover {
+    text-decoration: underline;
+}
