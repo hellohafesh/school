@@ -2,7 +2,7 @@ import React from 'react';
 
 const Aboutschool = () => {
     return (
-        <div>
+        <div className='w-full'>
             <h1>Aboutschool</h1>
         </div>
     );

@@ -6,6 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 import './Nav.css';
 import logo from './download.png';
 import { Image } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const logos = logo;
 const Navs = () => {
@@ -32,22 +33,22 @@ const Navs = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" className="bg-primary">
                         <Nav className="me-auto ">
-                            <Nav.Link href="#home">হোম</Nav.Link>
+                            <Nav.Link><Link className="text-white navbutton" to="/">হোম</Link></Nav.Link>
                             <NavDropdown title="আমাদের সম্পর্কে" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="#action/3.1">প্রতিষ্ঠানের ইতিহাস</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">শিক্ষকবৃন্দ</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3">প্রাক্তন শিক্ষকবৃন্দ</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.4">কর্মচারীবৃন্দ </NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.4">প্রাক্তন কর্মচারীবৃন্দ </NavDropdown.Item>
+                                <NavDropdown.Item > <Link className="text-white navbutton" to="/about">প্রতিষ্ঠানের ইতিহাস</Link></NavDropdown.Item>
+                                <NavDropdown.Item ><Link className="text-white navbutton" to="/about">শিক্ষকবৃন্দ</Link></NavDropdown.Item>
+                                <NavDropdown.Item ><Link className="text-white navbutton" to="/about">প্রাক্তন শিক্ষকবৃন্দ</Link></NavDropdown.Item>
+                                <NavDropdown.Item ><Link className="text-white navbutton" to="/about">কর্মচারীবৃন্দ </Link></NavDropdown.Item>
+                                <NavDropdown.Item ><Link className="text-white navbutton" to="/about">প্রাক্তন কর্মচারীবৃন্দ </Link></NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link href="#link">নোটিশ</Nav.Link>
+                            <Nav.Link ><Link className="text-white navbutton" to="/about">নোটিশ</Link></Nav.Link>
                             <NavDropdown title="উপস্থিতি রিপোর্ট" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="#action/3.2">দৈনিক</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3">মাসিক</NavDropdown.Item>
+                                <NavDropdown.Item ><Link className="text-white navbutton" to="/about">দৈনিক</Link></NavDropdown.Item>
+                                <NavDropdown.Item ><Link className="text-white navbutton" to="/about">মাসিক</Link></NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link href="#link">রেজাল্ট</Nav.Link>
-                            <Nav.Link href="#link">অনলাইন ভর্তি</Nav.Link>
-                            <Nav.Link href="#link">যোগাযোগ</Nav.Link>
+                            <Nav.Link ><Link className="text-white navbutton" to="/about">রেজাল্ট</Link></Nav.Link>
+                            <Nav.Link ><Link className="text-white navbutton" to="/about">অনলাইন ভর্তি</Link></Nav.Link>
+                            <Nav.Link ><Link className="text-white navbutton" to="/about">যোগাযোগ</Link></Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>

@@ -10,7 +10,9 @@ const MainLayout = () => {
         <div>
             <Navs></Navs>
             <Container className='d-lg-flex d-lg-row-2'>
-                <Outlet></Outlet>
+                <div className="col-lg-9 ">
+                    <Outlet></Outlet>
+                </div>
                 <div className="col-lg-3 ">
                     <Side ></Side>
                 </div>

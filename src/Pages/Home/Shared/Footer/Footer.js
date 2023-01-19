@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-
+import { Link } from 'react-router-dom';
+import "./Footer.css";
 const Footer = () => {
     return (
         <Container>
@@ -94,7 +95,7 @@ const Footer = () => {
                         <div className="row">
 
                             <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-                                <h5 className="text-uppercase">বিউবি সম্পর্কে </h5>
+                                <Link className='aaaa'> <h5>বিউবি সম্পর্কে </h5 ></Link>
 
 
                             </div>
@@ -102,20 +103,20 @@ const Footer = () => {
 
 
                             <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-                                <h5 className="text-uppercase">কৃতিমান ছাত্র </h5>
+                                <Link className='aaaa'> <h5>কৃতিমান ছাত্র </h5 ></Link>
                             </div>
 
 
 
                             <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-                                <h5 className="text-uppercase">পাঠক্রম সম্পর্কে</h5>
+                                <Link className='aaaa'> <h5>পাঠক্রম সম্পর্কে</h5 ></Link>
 
                             </div>
 
 
 
                             <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-                                <h5 className="text-uppercase">আমাদের অর্জন </h5>
+                                <Link className='aaaa'> <h5>আমাদের অর্জন</h5 ></Link>
                             </div>
 
                         </div>
@@ -127,8 +128,7 @@ const Footer = () => {
 
 
                 <div className="text-center p-3">
-                    বিউবি © ২০২৩ ।
-                    <a className="text-white" href="https://mdbootstrap.com/"> সর্বস্বত্ব সংরক্ষিত ।</a>
+                    বিউবি © ২০২৩ । সর্বস্বত্ব সংরক্ষিত ।
                 </div>
 
             </footer>

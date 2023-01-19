@@ -1,3 +1,29 @@
-.aaa :hover {
+.nav-link :hover {
     background-color: gray;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.dropdown :hover {
+    background-color: gray;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+#basic-nav-dropdown {
+    color: white;
+}
+
+.dropdown-item :hover {
+    background-color: #0d6efd;
+    border-radius: 10px;
+}
+
+.dropdown-menu {
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.navbutton {
+    text-decoration: none;
 }
