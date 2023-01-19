@@ -5,23 +5,26 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Nav from 'react-bootstrap/Nav';
 import './Nav.css';
 import logo from './download.png';
+import { Image } from 'react-bootstrap';
 
 const logos = logo;
 const Navs = () => {
     return (
 
         <div>
-            <Container className='d-flex justify-content-between bg-primary '>
+            <Container className='d-lg-flex p-2 text-center justify-content-between bg-primary '>
                 <h6 className='pt-1 text-white'>চলমান শিক্ষাবর্ষঃ ২০২৩</h6>
                 <h6 className='pt-1 text-white'>বৃহস্পতিবার, জানুয়ারী ১৯, ২০২৩</h6>
             </Container>
-            <Container className='d-flex p-3'>
-                <img src={logos} alt="School Image" />
-                <div className=''>
-                    <h3 className='fw-bold'>বিদ্যালয় দ্বি-মূখী উচ্চ বিদ্যালয়, বিদ্যালয়, বিদ্যালয়</h3>
-                    <h5>স্থাপিতঃ ১৯৫৪; বিদ্যালয় কোডঃ ১২৬৬; ইআইআইএনঃ ১৬৯৫৪৬৭৯৮</h5>
+            <Container className='d-lg-flex p-3 mx-auto'>
+                <Image className='h-auto w-auto ' src={logos} alt="School Image" />
+                <div className='d-flex align-items-center'>
+                    <div className='mt-5 lg-mt-0 lg-ms-3'>
+                        <h3 className='fw-bold'>বিদ্যালয় দ্বি-মূখী উচ্চ বিদ্যালয়, বিদ্যালয়, বিদ্যালয়</h3>
+                        <h5>স্থাপিতঃ ১৯৫৪; বিদ্যালয় কোডঃ ১২৬৬; ইআইআইএনঃ ১৬৯৫৪৬৭৯৮</h5>
+                    </div>
                 </div>
-            </Container>
+            </Container >
 
 
             <Container>
@@ -49,7 +52,7 @@ const Navs = () => {
                     </Navbar.Collapse>
                 </Navbar>
             </Container>
-        </div>
+        </div >
     );
 };
 
