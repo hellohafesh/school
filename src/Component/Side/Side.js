@@ -1,5 +1,6 @@
 import React from 'react';
 import { Image } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Side = () => {
     return (
@@ -16,28 +17,23 @@ const Side = () => {
                 <h6>Name সহকারী প্রধান শিক্ষক</h6>
                 <p>সহকারী প্রধান শিক্ষক</p>
             </div>
-            <div>
+            <div className='mb-4'>
                 <h6 className='w-full bg-primary text-white p-3'>গুরুত্বপূর্ণ লিংক</h6>
-                <p className='w-full '>জাতীয় তথ্য বাতায়ন</p>
-                <hr />
-                <p className='w-full '>শিক্ষা মন্ত্রণালয়</p>
-                <hr />
-                <p className='w-full '>মাধ্যমিক ও উচ্চ শিক্ষা বিভাগ</p>
-                <hr />
-                <p className='w-full '>মাধ্যমিক ও উচ্চশিক্ষা অধিদপ্তর</p>
-                <hr />
-                <p className='w-full '>দিনাজপুর শিক্ষা বোর্ড</p>
-                <hr />
-
+                <div className=" row">
+                    <Link className='w-full'>জাতীয় তথ্য বাতায়ন</Link>
+                    <Link className='w-full '>শিক্ষা মন্ত্রণালয়</Link>
+                    <Link className='w-full '>মাধ্যমিক ও উচ্চ শিক্ষা বিভাগ</Link>
+                    <Link className='w-full '>মাধ্যমিক ও উচ্চশিক্ষা অধিদপ্তর</Link>
+                    <Link className='w-full '>দিনাজপুর শিক্ষা বোর্ড</Link>
+                </div>
             </div>
-            <div>
+            <div className='mb-4'>
                 <h6 className='w-full bg-primary text-white p-3'>সামাজিক যোগাযোগ</h6>
-                <p className='w-full '>ফেইসবুক</p>
-                <hr />
-                <p className='w-full '> টুইটার</p>
-                <hr />
-                <p className='w-full '>ইউটিউব</p>
-                <hr />
+                <div className="row">
+                    <Link className='w-full '>ফেইসবুক</Link>
+                    <Link className='w-full '> টুইটার</Link>
+                    <Link className='w-full '>ইউটিউব</Link>
+                </div>
 
             </div>
         </div>

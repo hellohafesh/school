@@ -9,9 +9,11 @@ const MainLayout = () => {
     return (
         <div>
             <Navs></Navs>
-            <Container className='d-lg-flex'>
+            <Container className='d-lg-flex d-lg-row-2'>
                 <Outlet></Outlet>
-                <Side></Side>
+                <div className="col-lg-3 ">
+                    <Side ></Side>
+                </div>
             </Container>
             <Footer></Footer>
         </div>

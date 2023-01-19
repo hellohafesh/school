@@ -14,7 +14,7 @@ const Navs = () => {
         <div>
             <Container className='d-lg-flex p-2 text-center justify-content-between bg-primary '>
                 <h6 className='pt-1 text-white'>চলমান শিক্ষাবর্ষঃ ২০২৩</h6>
-                <h6 className='pt-1 text-white'>বৃহস্পতিবার, জানুয়ারী ১৯, ২০২৩</h6>
+                <h6 className='pt-1 text-white'>শুক্রবার, ২০ জানুয়ারী ,২০২৩</h6>
             </Container>
             <Container className='d-lg-flex p-3 mx-auto'>
                 <Image className='h-auto w-auto ' src={logos} alt="School Image" />
