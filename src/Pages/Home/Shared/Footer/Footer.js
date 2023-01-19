@@ -41,7 +41,7 @@ const Footer = () => {
 
 
                         <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button" >
-                            <i class="fa-brands fa-youtube"></i></a>
+                            <i className="fa-brands fa-youtube"></i></a>
                     </section>
 
 

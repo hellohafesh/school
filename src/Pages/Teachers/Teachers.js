@@ -3,10 +3,10 @@ import React from 'react';
 const Teachers = () => {
     return (
         <div className=''>
-            <h1 className='p-3 mb-4'>Teachers</h1>
+            <h1 className='p-3 mb-4'>শিক্ষকবৃন্দ</h1>
             <hr />
 
-            <table class="table table-bordered">
+            <table className="table table-bordered">
                 <thead>
                     <tr>
                         <th scope="col">ক্রমিক</th>
@@ -89,9 +89,9 @@ const Teachers = () => {
                 </tbody>
             </table>
             <div className='d-flex mb-4'>
-                <button className='btn btn-sm'> পূরবর্তী</button>
-                <h6 className='p-3'>  ১/১  </h6>
-                <button className='btn btn-sm'>পরবর্তী </button>
+                <button className='btn btn-secondary btn-sm'> পূরবর্তী</button>
+                <h6 className='ps-3 pe-3'>  ১/১  </h6>
+                <button className='btn btn-secondary btn-sm'>পরবর্তী </button>
             </div>
         </div>
     );
